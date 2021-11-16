@@ -1,0 +1,43 @@
+:root {
+  --circleSize: 650px;
+  --red: #cfb4b3;
+  --yellow: #cfcdb3;
+  --blue: #7b7f8c;
+  --green: #95aa93;
+}
+
+.large-weather-forecast {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  height: var(--circleSize);
+  width: var(--circleSize);
+  border-radius: 50%;
+  border-color: #cfc9b3;
+  box-shadow: inset 0px 0px 20px 0px #cfc9b3, 0px 0px 20px 0px #cfc9b3;
+  overflow: hidden;
+  position: relative;
+}
+
+.large-weather-cutout {
+  background-color: #272727;
+  height: calc(var(--circleSize) - 25px);
+  width: calc(var(--circleSize) - 25px);
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  z-index: 25;
+}
+
+.large-weather-hour {
+  height: 100%;
+  width: 26%;
+  /* width: 100%; */
+  transform: translate(100px);
+  /* background-color: darkred;*/
+  position: absolute;
+  transform: translate(calc(var(--circleSize) / 2));
+}

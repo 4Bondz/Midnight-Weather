@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+
+.temperature-display {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  color: #272727;
+}
