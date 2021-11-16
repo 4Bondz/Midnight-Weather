@@ -4,7 +4,7 @@ A simple, dark-mode, weather forecaster.
 # Purpose
 - Make a simple, styleized, dark-mode weather forecaster
 - Create basic express backend framework / API
-- Develop React skills
+- Develop React and Webpack skills
 - Develop CSS knowledge and layout skills
 
 # To-Do
